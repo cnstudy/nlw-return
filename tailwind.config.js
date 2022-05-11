@@ -3,7 +3,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        brend: {
+        brand: {
           500: '#8b5cf6',
         }
       }
