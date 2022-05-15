@@ -4,10 +4,16 @@ module.exports = {
     extend: {
       colors: {
         brand: {
+          300: '#996DFF',
           500: '#8b5cf6',
         }
-      }
+      },
+      borderRadius: {
+        md: '4px',
+      },
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms'),
+  ],
 }
